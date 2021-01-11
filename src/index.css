@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* My CSS */
+img {
+  width: 150px;
+}
+
+.dish {
+  max-width: 300px;
+}
+
+.dishes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+

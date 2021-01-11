@@ -1,11 +1,11 @@
-const ClientsList = [
+export const ClientsListJSON = [
   {
     first_name: "Andrei",
     last_name: "Komolov",
     tel: "(919)522-3309",
     email: "andreykomolov@gmail.com",
     img_src: "http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/angie.png",
-    adress: "1101 New World Cir #210, Raleigh, NC, 27615",
+    address: "1101 New World Cir #210, Raleigh, NC, 27615",
     id: 1
   },
   {
@@ -14,7 +14,7 @@ const ClientsList = [
     tel: "(919)522-3309",
     email: "ivanpetrov@gmail.com",
     img_src: "http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/angie.png",
-    adress: "1101 New World Cir #210, Raleigh, NC, 27615",
+    address: "1101 New World Cir #210, Raleigh, NC, 27615",
     id: 2
   },
   {
@@ -23,7 +23,7 @@ const ClientsList = [
     tel: "(919)522-3309",
     email: "sergeysmirnoff@gmail.com",
     img_src: "http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/angie.png",
-    adress: "1101 New World Cir #210, Raleigh, NC, 27615",
+    address: "1101 New World Cir #210, Raleigh, NC, 27615",
     id: 3
   },
   {
@@ -32,7 +32,7 @@ const ClientsList = [
     tel: "(919)522-3309",
     email: "dmitriyivanoff@gmail.com",
     img_src: "http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/angie.png",
-    adress: "1101 New World Cir #210, Raleigh, NC, 27615",
+    address: "1101 New World Cir #210, Raleigh, NC, 27615",
     id: 4
   },
   {
@@ -41,9 +41,7 @@ const ClientsList = [
     tel: "(919)522-3309",
     email: "antondubroff@gmail.com",
     img_src: "http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/angie.png",
-    adress: "1101 New World Cir #210, Raleigh, NC, 27615",
+    address: "1101 New World Cir #210, Raleigh, NC, 27615",
     id: 5
   }
 ];
-
-export default ClientsList;

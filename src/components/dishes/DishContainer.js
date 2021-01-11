@@ -15,10 +15,10 @@ const DishContainer = (props) => {
                    key={dish.id} />
   }); 
   return (
-    <div>
-      <ul>
+    <div className="dishes">
+     
         {dishes}    
-      </ul>
+     
     </div>
   );
 }
