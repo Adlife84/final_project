@@ -1,21 +1,26 @@
 import React from 'react';
-import Course from './Dish';
+import Dish from './Dish';
 
 
 const DishContainer = (props) => {
-  let courses = props.data.map((course) => {
-    return <Course title={course.title}
-                   desc={course.description}
-                   img={course.img_src}
-                   key={course.id} />
+  let dishes = props.data.map((dish) => {
+    return <Dish   title={dish.title}
+                   desc={dish.description}
+                   img={dish.img_src}
+                   crust={dish.crust}
+                   size={dish.size}
+                   topping={dish.topping}
+                   quantity={dish.quantity}
+                   total_price={dish.total_price}
+                   key={dish.id} />
   }); 
   return (
     <div>
       <ul>
-        {courses}    
+        {dishes}    
       </ul>
     </div>
   );
 }
 
-export default CourseContainer;
+export default DishContainer;
