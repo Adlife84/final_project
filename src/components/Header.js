@@ -3,8 +3,9 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => (
   <header>
-    <span className="icn-logo"><i className="material-icons">code</i></span>
+    <span className="icn-logo"><i className="material-icons">Dodo Pizza</i></span>
     <ul className="main-nav">
+      <li><NavLink exact to="/dish/new">New Dish</NavLink></li>
       <li><NavLink exact to="/">Menu</NavLink></li>
       <li><NavLink to="/clients">Clients</NavLink></li>
       <li><NavLink to="/orders">Orders</NavLink></li>

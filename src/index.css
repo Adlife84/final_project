@@ -28,4 +28,10 @@ img {
   flex-wrap: wrap;
 }
 
+.clients {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 
